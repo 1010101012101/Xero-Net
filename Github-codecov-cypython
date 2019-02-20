@@ -1,0 +1,197 @@
+AppVeyor
+Sign in
+Xero-Net
+Current build History
+LOG
+Merge pull request #372 from MJMortimer/f-batchpayments
+Add BatchPayments functionality
+1.0.389
+a month ago by MJMortimer (committed by GitHub)
+v2.2.8 c7da77cd
+a month ago in 7 min 11 sec
+Console Messages 15 Tests  Artifacts
+Build started
+git clone -q -n --branch=v2.2.8 https://github.com/XeroAPI/Xero-Net.git C:\projects\xero-net
+git checkout -qf v2.2.8
+nuget restore
+MSBuild auto-detection: using msbuild version '14.0' from 'C:\Program Files (x86)\MSBuild\14.0\bin\amd64'.
+Restoring NuGet package EntityFramework.6.0.0.
+Restoring NuGet package System.Data.SQLite.1.0.92.
+Restoring NuGet package Newtonsoft.Json.9.0.1.
+Restoring NuGet package System.Data.SQLite.Core.1.0.92.
+Restoring NuGet package System.Data.SQLite.EF6.1.0.92.
+Restoring NuGet package System.Data.SQLite.Linq.1.0.92.
+Restoring NuGet package NUnit.2.6.3.
+Restoring NuGet package NUnitTestAdapter.2.0.0.
+Restoring NuGet package Microsoft.AspNet.Mvc.4.0.40804.
+Restoring NuGet package Microsoft.AspNet.Razor.2.0.20710.
+Restoring NuGet package Microsoft.AspNet.WebApi.Client.4.0.20710.
+Restoring NuGet package Microsoft.AspNet.WebApi.Core.4.0.20710.
+Restoring NuGet package Microsoft.AspNet.WebApi.WebHost.4.0.30506.
+Restoring NuGet package Microsoft.AspNet.WebPages.2.0.20710.
+Restoring NuGet package Microsoft.Net.Http.2.0.20710.
+Restoring NuGet package Microsoft.Web.Infrastructure.1.0.0.
+Adding package 'Newtonsoft.Json.9.0.1' to folder 'C:\projects\xero-net\packages'
+Added package 'Newtonsoft.Json.9.0.1' to folder 'C:\projects\xero-net\packages'
+Restoring NuGet package NUnit.2.6.4.
+  GET https://www.nuget.org/api/v2/Packages(Id='EntityFramework',Version='6.0.0')
+  GET https://www.nuget.org/api/v2/Packages(Id='System.Data.SQLite',Version='1.0.92')
+  OK https://www.nuget.org/api/v2/Packages(Id='EntityFramework',Version='6.0.0') 57ms
+  OK https://www.nuget.org/api/v2/Packages(Id='System.Data.SQLite',Version='1.0.92') 94ms
+  GET https://www.nuget.org/api/v2/package/System.Data.SQLite/1.0.92
+  GET https://www.nuget.org/api/v2/package/EntityFramework/6.0.0
+  OK https://www.nuget.org/api/v2/package/System.Data.SQLite/1.0.92 108ms
+  OK https://www.nuget.org/api/v2/package/EntityFramework/6.0.0 121ms
+Installing EntityFramework 6.0.0.
+Installing System.Data.SQLite 1.0.92.0.
+Using credentials from config. UserName: nuget
+Please provide credentials for: https://ci.appveyor.com/nuget/xeroapi-tq308h4jlag3
+UserName: Adding package 'System.Data.SQLite.1.0.92' to folder 'C:\projects\xero-net\packages'
+Added package 'System.Data.SQLite.1.0.92' to folder 'C:\projects\xero-net\packages'
+Restoring NuGet package RhinoMocks.3.6.1.
+  GET https://www.nuget.org/api/v2/Packages(Id='RhinoMocks',Version='3.6.1')
+  OK https://www.nuget.org/api/v2/Packages(Id='RhinoMocks',Version='3.6.1') 51ms
+  GET https://www.nuget.org/api/v2/package/RhinoMocks/3.6.1
+  OK https://www.nuget.org/api/v2/package/RhinoMocks/3.6.1 31ms
+Installing RhinoMocks 3.6.1.
+Adding package 'RhinoMocks.3.6.1' to folder 'C:\projects\xero-net\packages'
+Added package 'RhinoMocks.3.6.1' to folder 'C:\projects\xero-net\packages'
+Adding package 'EntityFramework.6.0.0' to folder 'C:\projects\xero-net\packages'
+Added package 'EntityFramework.6.0.0' to folder 'C:\projects\xero-net\packages'
+  GET https://www.nuget.org/api/v2/Packages(Id='System.Data.SQLite.Core',Version='1.0.92')
+  OK https://www.nuget.org/api/v2/Packages(Id='System.Data.SQLite.Core',Version='1.0.92') 130ms
+  GET https://www.nuget.org/api/v2/package/System.Data.SQLite.Core/1.0.92
+  OK https://www.nuget.org/api/v2/package/System.Data.SQLite.Core/1.0.92 34ms
+Installing System.Data.SQLite.Core 1.0.92.0.
+Adding package 'System.Data.SQLite.Core.1.0.92' to folder 'C:\projects\xero-net\packages'
+Added package 'System.Data.SQLite.Core.1.0.92' to folder 'C:\projects\xero-net\packages'
+  GET https://www.nuget.org/api/v2/Packages(Id='System.Data.SQLite.EF6',Version='1.0.92')
+  OK https://www.nuget.org/api/v2/Packages(Id='System.Data.SQLite.EF6',Version='1.0.92') 70ms
+  GET https://www.nuget.org/api/v2/package/System.Data.SQLite.EF6/1.0.92
+  OK https://www.nuget.org/api/v2/package/System.Data.SQLite.EF6/1.0.92 49ms
+Installing System.Data.SQLite.EF6 1.0.92.0.
+Adding package 'System.Data.SQLite.EF6.1.0.92' to folder 'C:\projects\xero-net\packages'
+Added package 'System.Data.SQLite.EF6.1.0.92' to folder 'C:\projects\xero-net\packages'
+  GET https://www.nuget.org/api/v2/Packages(Id='System.Data.SQLite.Linq',Version='1.0.92')
+  OK https://www.nuget.org/api/v2/Packages(Id='System.Data.SQLite.Linq',Version='1.0.92') 82ms
+  GET https://www.nuget.org/api/v2/package/System.Data.SQLite.Linq/1.0.92
+  OK https://www.nuget.org/api/v2/package/System.Data.SQLite.Linq/1.0.92 73ms
+Installing System.Data.SQLite.Linq 1.0.92.0.
+Adding package 'System.Data.SQLite.Linq.1.0.92' to folder 'C:\projects\xero-net\packages'
+Added package 'System.Data.SQLite.Linq.1.0.92' to folder 'C:\projects\xero-net\packages'
+  GET https://www.nuget.org/api/v2/Packages(Id='NUnit',Version='2.6.3')
+  OK https://www.nuget.org/api/v2/Packages(Id='NUnit',Version='2.6.3') 58ms
+  GET https://www.nuget.org/api/v2/package/NUnit/2.6.3
+  OK https://www.nuget.org/api/v2/package/NUnit/2.6.3 43ms
+Installing NUnit 2.6.3.
+Adding package 'NUnit.2.6.3' to folder 'C:\projects\xero-net\packages'
+  GET https://www.nuget.org/api/v2/Packages(Id='NUnitTestAdapter',Version='2.0.0')
+Added package 'NUnit.2.6.3' to folder 'C:\projects\xero-net\packages'
+  OK https://www.nuget.org/api/v2/Packages(Id='NUnitTestAdapter',Version='2.0.0') 65ms
+  GET https://www.nuget.org/api/v2/package/NUnitTestAdapter/2.0.0
+  OK https://www.nuget.org/api/v2/package/NUnitTestAdapter/2.0.0 101ms
+Installing NUnitTestAdapter 2.0.0.
+  GET https://www.nuget.org/api/v2/Packages(Id='Microsoft.AspNet.Mvc',Version='4.0.40804')
+Adding package 'NUnitTestAdapter.2.0.0' to folder 'C:\projects\xero-net\packages'
+Added package 'NUnitTestAdapter.2.0.0' to folder 'C:\projects\xero-net\packages'
+  OK https://www.nuget.org/api/v2/Packages(Id='Microsoft.AspNet.Mvc',Version='4.0.40804') 54ms
+  GET https://www.nuget.org/api/v2/package/Microsoft.AspNet.Mvc/4.0.40804
+  OK https://www.nuget.org/api/v2/package/Microsoft.AspNet.Mvc/4.0.40804 50ms
+Installing Microsoft.AspNet.Mvc 4.0.40804.0.
+Adding package 'Microsoft.AspNet.Mvc.4.0.40804' to folder 'C:\projects\xero-net\packages'
+  GET https://www.nuget.org/api/v2/Packages(Id='Microsoft.AspNet.Razor',Version='2.0.20710')
+Added package 'Microsoft.AspNet.Mvc.4.0.40804' to folder 'C:\projects\xero-net\packages'
+  OK https://www.nuget.org/api/v2/Packages(Id='Microsoft.AspNet.Razor',Version='2.0.20710') 53ms
+  GET https://www.nuget.org/api/v2/package/Microsoft.AspNet.Razor/2.0.20710
+  OK https://www.nuget.org/api/v2/package/Microsoft.AspNet.Razor/2.0.20710 53ms
+Installing Microsoft.AspNet.Razor 2.0.20710.0.
+Adding package 'Microsoft.AspNet.Razor.2.0.20710' to folder 'C:\projects\xero-net\packages'
+  GET https://www.nuget.org/api/v2/Packages(Id='Microsoft.AspNet.WebApi.Client',Version='4.0.20710')
+Added package 'Microsoft.AspNet.Razor.2.0.20710' to folder 'C:\projects\xero-net\packages'
+  OK https://www.nuget.org/api/v2/Packages(Id='Microsoft.AspNet.WebApi.Client',Version='4.0.20710') 98ms
+  GET https://www.nuget.org/api/v2/package/Microsoft.AspNet.WebApi.Client/4.0.20710
+  OK https://www.nuget.org/api/v2/package/Microsoft.AspNet.WebApi.Client/4.0.20710 35ms
+Installing Microsoft.AspNet.WebApi.Client 4.0.20710.0.
+Adding package 'Microsoft.AspNet.WebApi.Client.4.0.20710' to folder 'C:\projects\xero-net\packages'
+Added package 'Microsoft.AspNet.WebApi.Client.4.0.20710' to folder 'C:\projects\xero-net\packages'
+  GET https://www.nuget.org/api/v2/Packages(Id='Microsoft.AspNet.WebApi.Core',Version='4.0.20710')
+  OK https://www.nuget.org/api/v2/Packages(Id='Microsoft.AspNet.WebApi.Core',Version='4.0.20710') 70ms
+  GET https://www.nuget.org/api/v2/package/Microsoft.AspNet.WebApi.Core/4.0.20710
+  OK https://www.nuget.org/api/v2/package/Microsoft.AspNet.WebApi.Core/4.0.20710 44ms
+Installing Microsoft.AspNet.WebApi.Core 4.0.20710.0.
+Adding package 'Microsoft.AspNet.WebApi.Core.4.0.20710' to folder 'C:\projects\xero-net\packages'
+  GET https://www.nuget.org/api/v2/Packages(Id='Microsoft.AspNet.WebApi.WebHost',Version='4.0.30506')
+Added package 'Microsoft.AspNet.WebApi.Core.4.0.20710' to folder 'C:\projects\xero-net\packages'
+  OK https://www.nuget.org/api/v2/Packages(Id='Microsoft.AspNet.WebApi.WebHost',Version='4.0.30506') 100ms
+  GET https://www.nuget.org/api/v2/package/Microsoft.AspNet.WebApi.WebHost/4.0.30506
+  OK https://www.nuget.org/api/v2/package/Microsoft.AspNet.WebApi.WebHost/4.0.30506 55ms
+Installing Microsoft.AspNet.WebApi.WebHost 4.0.30506.0.
+Adding package 'Microsoft.AspNet.WebApi.WebHost.4.0.30506' to folder 'C:\projects\xero-net\packages'
+  GET https://www.nuget.org/api/v2/Packages(Id='Microsoft.AspNet.WebPages',Version='2.0.20710')
+Added package 'Microsoft.AspNet.WebApi.WebHost.4.0.30506' to folder 'C:\projects\xero-net\packages'
+  OK https://www.nuget.org/api/v2/Packages(Id='Microsoft.AspNet.WebPages',Version='2.0.20710') 66ms
+  GET https://www.nuget.org/api/v2/package/Microsoft.AspNet.WebPages/2.0.20710
+  OK https://www.nuget.org/api/v2/package/Microsoft.AspNet.WebPages/2.0.20710 47ms
+Installing Microsoft.AspNet.WebPages 2.0.20710.0.
+  GET https://www.nuget.org/api/v2/Packages(Id='Microsoft.Net.Http',Version='2.0.20710')
+Adding package 'Microsoft.AspNet.WebPages.2.0.20710' to folder 'C:\projects\xero-net\packages'
+Added package 'Microsoft.AspNet.WebPages.2.0.20710' to folder 'C:\projects\xero-net\packages'
+  OK https://www.nuget.org/api/v2/Packages(Id='Microsoft.Net.Http',Version='2.0.20710') 53ms
+  GET https://www.nuget.org/api/v2/package/Microsoft.Net.Http/2.0.20710
+  OK https://www.nuget.org/api/v2/package/Microsoft.Net.Http/2.0.20710 34ms
+Installing Microsoft.Net.Http 2.0.20710.0.
+Adding package 'Microsoft.Net.Http.2.0.20710' to folder 'C:\projects\xero-net\packages'
+  GET https://www.nuget.org/api/v2/Packages(Id='Microsoft.Web.Infrastructure',Version='1.0.0')
+Added package 'Microsoft.Net.Http.2.0.20710' to folder 'C:\projects\xero-net\packages'
+  OK https://www.nuget.org/api/v2/Packages(Id='Microsoft.Web.Infrastructure',Version='1.0.0') 45ms
+  GET https://www.nuget.org/api/v2/package/Microsoft.Web.Infrastructure/1.0.0
+  OK https://www.nuget.org/api/v2/package/Microsoft.Web.Infrastructure/1.0.0 40ms
+Installing Microsoft.Web.Infrastructure 1.0.0.0.
+Adding package 'Microsoft.Web.Infrastructure.1.0.0' to folder 'C:\projects\xero-net\packages'
+  GET https://www.nuget.org/api/v2/Packages(Id='NUnit',Version='2.6.4')
+Added package 'Microsoft.Web.Infrastructure.1.0.0' to folder 'C:\projects\xero-net\packages'
+  OK https://www.nuget.org/api/v2/Packages(Id='NUnit',Version='2.6.4') 92ms
+  GET https://www.nuget.org/api/v2/package/NUnit/2.6.4
+  OK https://www.nuget.org/api/v2/package/NUnit/2.6.4 35ms
+Installing NUnit 2.6.4.
+Adding package 'NUnit.2.6.4' to folder 'C:\projects\xero-net\packages'
+Added package 'NUnit.2.6.4' to folder 'C:\projects\xero-net\packages'
+NuGet Config files used:
+    C:\Users\appveyor\AppData\Roaming\NuGet\NuGet.Config
+Feeds used:
+    C:\Users\appveyor\.nuget\packages\
+    https://www.nuget.org/api/v2
+    https://ci.appveyor.com/nuget/xeroapi-tq308h4jlag3
+    https://ci.appveyor.com/nuget/xero-net-3pbp6uo8b1en
+Installed:
+    18 package(s) to packages.config projects
+msbuild "C:\projects\xero-net\Xero.Api.sln" /verbosity:minimal /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+Core\Endpoints\AllocationEndpoint.cs(21,31): warning CS0618: 'Allocation' is obsolete: 'Use CreditNoteAllocation' [C:\projects\xero-net\Xero.Api\Xero.Api.csproj]
+Core\Endpoints\AllocationEndpoint.cs(21,16): warning CS0618: 'Allocation' is obsolete: 'Use CreditNoteAllocation' [C:\projects\xero-net\Xero.Api\Xero.Api.csproj]
+Payroll\America\Request\PayItemsRequest.cs(27,32): warning CS0108: 'PayItemsRequest.Items' hides inherited member 'XeroRequest<PayItems>.Items'. Use the new keyword if hiding was intended. [C:\projects\xero-net\Xero.Api\Xero.Api.csproj]
+Payroll\America\Request\PayItemsRequest.cs(29,21): warning CS0108: 'PayItemsRequest.Add(PayItems)' hides inherited member 'List<PayItems>.Add(PayItems)'. Use the new keyword if hiding was intended. [C:\projects\xero-net\Xero.Api\Xero.Api.csproj]
+Payroll\America\Request\PayItemsRequest.cs(34,21): warning CS0108: 'PayItemsRequest.AddRange(IEnumerable<PayItems>)' hides inherited member 'List<PayItems>.AddRange(IEnumerable<PayItems>)'. Use the new keyword if hiding was intended. [C:\projects\xero-net\Xero.Api\Xero.Api.csproj]
+Core\Endpoints\FoldersEndpoint.cs(54,32): warning CS0114: 'FoldersEndpoint.Find()' hides inherited member 'XeroReadEndpoint<FoldersEndpoint, Folder, FolderResponse>.Find()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword. [C:\projects\xero-net\Xero.Api\Xero.Api.csproj]
+Core\Endpoints\InboxEndpoint.cs(53,27): warning CS0114: 'InboxEndpoint.Find(Guid)' hides inherited member 'XeroReadEndpoint<InboxEndpoint, Folder, FolderResponse>.Find(Guid)'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword. [C:\projects\xero-net\Xero.Api\Xero.Api.csproj]
+Infrastructure\ThirdParty\ServiceStack.Text\Json\JsonTypeSerializer.cs(563,17): warning CS0219: The variable 'withinQuotes' is assigned but its value is never used [C:\projects\xero-net\Xero.Api\Xero.Api.csproj]
+Infrastructure\ThirdParty\ServiceStack.Text\Json\JsonTypeSerializer.cs(564,17): warning CS0219: The variable 'endsToEat' is assigned but its value is never used [C:\projects\xero-net\Xero.Api\Xero.Api.csproj]
+  Xero.Api -> C:\projects\xero-net\Xero.Api\bin\Debug\Xero.Api.dll
+  Xero.Api.Example.TokenStores -> C:\projects\xero-net\Xero.Api.Example.TokenStores\bin\Debug\Xero.Api.Example.TokenStores.dll
+  Xero.Api.Example.Applications -> C:\projects\xero-net\Xero.Api.Example.Applications\bin\Debug\Xero.Api.Example.Applications.dll
+  Xero.Api.Example.Creation -> C:\projects\xero-net\Xero.Api.Example.Creation\bin\Debug\Xero.Api.Example.Creation.exe
+  PayrollTests.US -> C:\projects\xero-net\PayrollTests.US\bin\Debug\PayrollTests.US.dll
+  PayrollTests.AU -> C:\projects\xero-net\PayrollTests.AU\bin\Debug\PayrollTests.AU.dll
+  Xero.Api.Example.Counts -> C:\projects\xero-net\Xero.Api.Example.Counts\bin\Debug\Xero.Api.Example.Counts.exe
+Integration\Allocations\Add.cs(20,50): warning CS0618: 'Allocation' is obsolete: 'Use CreditNoteAllocation' [C:\projects\xero-net\CoreTests\CoreTests.csproj]
+Integration\Allocations\Add.cs(39,50): warning CS0618: 'Allocation' is obsolete: 'Use CreditNoteAllocation' [C:\projects\xero-net\CoreTests\CoreTests.csproj]
+Integration\Allocations\Add.cs(59,37): warning CS0618: 'Allocation' is obsolete: 'Use CreditNoteAllocation' [C:\projects\xero-net\CoreTests\CoreTests.csproj]
+Integration\Allocations\Add.cs(119,37): warning CS0618: 'Allocation' is obsolete: 'Use CreditNoteAllocation' [C:\projects\xero-net\CoreTests\CoreTests.csproj]
+Integration\TrackingCategories\TrackingCategoriesTest.cs(19,24): warning CS0169: The field 'TrackingCategoriesTest.option_' is never used [C:\projects\xero-net\CoreTests\CoreTests.csproj]
+  CoreTests -> C:\projects\xero-net\CoreTests\bin\Debug\CoreTests.dll
+Controllers\OrganisationController.cs(19,40): warning CS0168: The variable 'e' is declared but never used [C:\projects\xero-net\Xero.Api.Example.MVC\Xero.Api.Example.MVC.csproj]
+  Xero.Api.Example.MVC -> C:\projects\xero-net\Xero.Api.Example.MVC\bin\Debug\Xero.Api.Example.MVC.dll
+  Xero.Api.Example.Mocks -> C:\projects\xero-net\Xero.Api.Example.Mocks\bin\Debug\Xero.Api.Example.Mocks.exe
+Build success
+ 
